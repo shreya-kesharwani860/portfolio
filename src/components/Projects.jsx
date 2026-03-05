@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import BlogAgent from "../assets/BlogAgent.jpg";
 import ChatbotImg from "../assets/ChatBot.jpg";
-import image.png from "../assets/image.png"
+import image from "../assets/image.png"
 
 const Projects = () => {
   return (
