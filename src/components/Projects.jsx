@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import BlogAgent from "../assets/BlogAgent.jpg";
 import ChatbotImg from "../assets/ChatBot.jpg";
-import image from "../assets/image.png"
+import Tripimage from "../assets/image.png"
 
 const Projects = () => {
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
         />
 
         <ProjectCard
-  image={image} 
+  image={Tripimage} 
   title="AI Trip Planner"
   subtitle="Full-Stack Personalized Travel Itinerary"
   description="A sophisticated AI travel companion that generates multi-day itineraries, hotel suggestions, and budget-conscious plans using Google Gemini AI and real-time place data."
