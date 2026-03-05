@@ -32,6 +32,16 @@ const Projects = () => {
           github="https://github.com/shreya-kesharwani860/Blog_agent_LangGraph"
         />
 
+        <ProjectCard
+  image={image} 
+  title="AI Trip Planner"
+  subtitle="Full-Stack Personalized Travel Itinerary"
+  description="A sophisticated AI travel companion that generates multi-day itineraries, hotel suggestions, and budget-conscious plans using Google Gemini AI and real-time place data."
+  tech={["React", "Tailwind CSS", "Firebase", "Google Gemini AI", "Google Auth", "Mapbox"]}
+  live="https://ai-travel-planner-six-nu.vercel.app/" 
+  github="https://github.com/shreya-kesharwani860/AI_Travel_Planner"
+/>
+
         {/* AI Voice Chatbot Project */}
         <ProjectCard
           image={ChatbotImg}
